@@ -27,8 +27,8 @@
     <spring-cloud-contract.version>2.0.2.RELEASE</spring-cloud-contract.version>
 <!--    <distribution.management.release.id>bintray</distribution.management.release.id>-->
 <!--    <distribution.management.release.url>https://api.bintray.com/maven/ciberkleid/maven-repo/fortune-service</distribution.management.release.url>-->
-    <distribution.management.release.id>nexus-snapshots</distribution.management.release.id>
-    <distribution.management.release.url>http://192.168.0.102:8081/repository/maven-snapshots/syc0pat/maven-repo/fortune-service</distribution.management.release.url>
+<!--    <distribution.management.release.id>nexus-snapshots</distribution.management.release.id>-->
+<!--    <distribution.management.release.url>http://192.168.0.102:8081/repository/maven-snapshots/syc0pat/maven-repo/fortune-service</distribution.management.release.url>-->
     <contracts.mode>REMOTE</contracts.mode>
   </properties>
 
@@ -116,10 +116,10 @@
 
   <distributionManagement>
     <repository>
-<!--       <id>${distribution.management.release.id}</id> -->
-      <id>nexus-snapshots</id>
-<!--       <url>${distribution.management.release.url}</url> -->
-      <url>http://192.168.0.102:8081/repository/maven-snapshots/syc0pat/maven-repo/fortune-service</url>
+<!--  <id>${distribution.management.release.id}</id> -->
+      <id>nexus-releases</id>
+<!--  <url>${distribution.management.release.url}</url> -->
+      <url>http://192.168.0.102:8081/repository/maven-releases/syc0pat/maven-repo/fortune-service</url>
     </repository>
   </distributionManagement>
 
