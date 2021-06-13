@@ -28,7 +28,7 @@
 <!--    <distribution.management.release.id>bintray</distribution.management.release.id>-->
 <!--    <distribution.management.release.url>https://api.bintray.com/maven/ciberkleid/maven-repo/fortune-service</distribution.management.release.url>-->
     <distribution.management.release.id>nexus-snapshots</distribution.management.release.id>
-    <distribution.management.release.url>http://192.168.0.102:8081/repository/maven-snapshots/syc0pat/maven-repo/fortune-service</distribution.management.release.url>
+    <distribution.management.release.url>http://192.168.0.102:8081/repository/maven-snapshots/</distribution.management.release.url>
     <contracts.mode>REMOTE</contracts.mode>
   </properties>
 
