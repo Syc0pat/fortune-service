@@ -1,0 +1,13 @@
+{
+  "id" : "4a961789-6602-4026-a23e-242df66d7ee4",
+  "request" : {
+    "url" : "/fortune",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "foo fortune",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "4a961789-6602-4026-a23e-242df66d7ee4"
+}

@@ -1,0 +1,5 @@
+io\pivotal\fortune\Fortune.class
+io\pivotal\fortune\FortuneService.class
+io\pivotal\fortune\FortuneRepository.class
+io\pivotal\fortune\FortuneController.class
+io\pivotal\FortuneServiceApplication.class
